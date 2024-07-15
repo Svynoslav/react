@@ -1,7 +1,13 @@
-import css from "./App.module.css";
+import {
+  useState,
+  useEffect,
+  useMemo,
+  useRef,
+  forwardRef,
+  createContext,
+  useContext,
+} from "react";
 
-const App = () => {
-  return <div className={css.temp}>This is a template</div>;
-};
-
-export default App;
+export default function App() {
+  return;
+}
